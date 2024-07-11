@@ -6,59 +6,7 @@
 
 /*stilizzo le classi presenti nel file index.html*/
 
-.container {
-    width: 1200px;
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.items {
+#carousel-container {
     width: 900px;
-    height: 400px;
-}
-
-.thumbs-area {
-    width: 100%;
-}
-
-.thumbs {
-    display: flex;
-    position: relative;
-    width: 1200px;
-    height: 350px;
-}
-
-.item {
-    height: 100%; 
-}
-
-.item img, .thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.thumb {
-    height: calc(100% / 5);
-}
-
-.prev,
-.next {
-    font-size: 25px;
-    color: red;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    z-index: 40;
-    transform: translate(-50%);
-    opacity: 90%;
-}
-.next {
-    left: 510px;
-}
-
-.prev {
-    left:15px;
+    margin: 30px auto;
 }

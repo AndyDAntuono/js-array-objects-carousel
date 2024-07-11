@@ -48,7 +48,7 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 /*SOLUZIONE*/
 
 HTML
-1 innanzittuto creo una struttura statica del carosello
+1 innanzittuto creo una struttura statica del che ospiterà l'immagine grande del carosello
 
 CSS
-1 stilizzo le classi del caorosello statico
+1 stilizzo l'espositore che ospiterà l'immagine grande
