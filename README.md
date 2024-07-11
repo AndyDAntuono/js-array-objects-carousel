@@ -48,7 +48,11 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 /*SOLUZIONE*/
 
 HTML
-1 innanzittuto creo una struttura statica del che ospiterà l'immagine grande del carosello
+1 innanzittuto creo una struttura statica del che ospiterà l'immagine grande del carosello;
 
 CSS
-1 stilizzo l'espositore che ospiterà l'immagine grande
+1 stilizzo l'espositore che ospiterà l'immagine grande;
+
+JS
+1 utilizzo l'array di oggetti datomi dalla consegna;
+2 usando un ciclo for each faccio in modo che gli elementi image, title e text dell'array si inseriscono nella struttura html dell'espositore dell'immagine grande del mio carosello

@@ -22,13 +22,24 @@ const images = [
     }
 ];
 
+//recupero l'lelemento del dom che contiene le immagini
 let container = document.getElementById('carousel-container')
 
+//utilizzando un ciclo for each, ciclo l'array images per creare gli espositori delle immagini
 images.forEach((elem) => {
     container.innerHTML += `
-    <div class="card">
+    <div class="card d-none">
                     <img id="largeImage" src="${elem.image}" alt="">
                     <h5 class="card-title">${elem.title}</h5>
                     <p class="card-text">${elem.text}</p>
                 </div>`
 })
+
+//definisco, l'indice dell'elemento che voglio rendere invisibie
+let activeCard = 0;
+
+//recupero tutti gli elementi che hanno la classe .card
+const cards = document.querySelectorAll('.card');
+
+//prendo il primo elemento dell'array cards e gli tolgo la classe d-none
+cards[activeCard].classList.remove('d-none')
