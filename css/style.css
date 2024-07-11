@@ -3,3 +3,37 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/*stilizzo le classi presenti nel file index.html*/
+
+.container {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    width: 800px;
+    height: 400px;
+}
+
+.thumbs {
+    width: 200px;
+    height: 400px;
+}
+
+.item {
+    height: 100%; 
+}
+
+.item img, .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumb {
+    height: calc(100% / 5);
+}
