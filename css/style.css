@@ -19,8 +19,14 @@
     height: 400px;
 }
 
+.thumbs-area {
+    width: 100%;
+}
+
 .thumbs {
-    width: 300px;
+    display: flex;
+    position: relative;
+    width: 1200px;
     height: 350px;
 }
 
@@ -36,4 +42,23 @@
 
 .thumb {
     height: calc(100% / 5);
+}
+
+.prev,
+.next {
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    z-index: 40;
+    transform: translate(-50%);
+    opacity: 90%;
+}
+.next {
+    left: 510px;
+}
+
+.prev {
+    left:15px;
 }
